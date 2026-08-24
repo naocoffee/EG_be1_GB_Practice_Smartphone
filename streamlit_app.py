@@ -106,26 +106,12 @@ st.markdown(
         max-height: 94vh;
         background: #f0eee9;
         border: 12px solid #171614;
-        border-radius: 42px;
         box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5), inset 0 0 0 2px #3a3833;
         overflow-y: auto;
         overflow-x: hidden;
-        padding: 30px 18px 22px 18px !important;
+        padding: 22px 18px !important;
         position: relative;
         scrollbar-width: thin;
-    }
-
-    div.block-container::before {
-        content: "";
-        position: sticky;
-        top: 0;
-        display: block;
-        width: 72px;
-        height: 18px;
-        background: #171614;
-        border-radius: 10px;
-        margin: -14px auto 16px auto;
-        z-index: 20;
     }
 
     section.main > div {
